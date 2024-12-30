@@ -1,0 +1,27 @@
+h1 {
+    font-size: 36px;
+    color: blue;
+}
+
+#person {
+    font-size: 24px;
+    color: midnightblue;
+}
+
+.enter span {
+    color: green;
+}
+
+button {
+    background: none;
+    color: #ffa260;
+    border-radius: 15%;
+    transition: border-color 0.25s, color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+button:hover {
+    border-color: #f1ff5c;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
